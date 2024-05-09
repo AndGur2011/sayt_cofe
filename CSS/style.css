@@ -1,3 +1,4 @@
+Алина Учитель Логика, [06.05.2024 18:14]
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 h1{text-shadow: 3px 3px 3px black;
@@ -20,6 +21,8 @@ font-size: 45px;
 font-family: "Inter", sans-serif;
 
 }
+
+h2::after{content: url(https://i.postimg.cc/MKsgYjGr/free-icon-croissant-712277.png);}
 
 p{text-align: center;
 color: white;
@@ -102,6 +105,7 @@ body{
     width: 300px;
     height: 370px;
     margin: 10px;
+    text-align: center;
 }
 
 .lococ{
@@ -121,6 +125,7 @@ body{
     width: 300px;
     height: 370px;
     margin: 10px;
+    text-align: center;
 }
 
 .kyrig{
@@ -140,6 +145,7 @@ body{
     width: 300px;
     height: 370px;
     margin: 10px;
+    text-align: center;
 }
 
 .vega{
@@ -159,6 +165,7 @@ body{
     width: 300px;
     height: 370px;
     margin: 10px;
+    text-align: center;
 }
 
 .calam{
@@ -184,6 +191,7 @@ body{
     width: 300px;
     height: 370px;
     margin: 10px;
+    text-align: center;
 }
 
 .latt{
@@ -204,6 +212,7 @@ body{
     width: 300px;
     height: 370px;
     margin: 10px;
+    text-align: center;
 }
 
 .fle{
@@ -224,6 +233,7 @@ body{
     width: 300px;
     height: 370px;
     margin: 10px;
+    text-align: center;
 }
 
 .americon{
@@ -245,6 +255,7 @@ body{
     width: 300px;
     height: 370px;
     margin: 10px;
+    text-align: center;
 }
 
 .ra{
@@ -278,6 +289,7 @@ body{
     width: 300px;
     height: 370px;
     margin: 10px;
+    text-align: center;
 }
 
 .brayn{
@@ -299,6 +311,7 @@ body{
     width: 300px;
     height: 370px;
     margin: 10px;
+    text-align: center;
 }
 
 .makoron{
@@ -320,6 +333,7 @@ body{
     width: 300px;
     height: 370px;
     margin: 10px;
+    text-align: center;
 }
 
 .zefi{
@@ -341,6 +355,7 @@ body{
     width: 300px;
     height: 370px;
     margin: 10px;
+    text-align: center;
 }
 
 .ekler{
@@ -361,3 +376,126 @@ body{
     justify-content: space-between;
     gap: 10px;
 }
+
+
+button{
+background-color:black;
+color:white;
+padding:10px;
+text-align: center;
+
+}
+
+h2:hover{
+transform:translateX(-450px);
+transition:1s linear;
+}
+
+
+
+.modal{display: none;}
+
+/* Стилі для модального вікна */
+.modal {
+  
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5); /* прозорість тла */
+}
+
+.modal-content {
+  border-radius: 10px;
+  background-color: #cbb99a;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Стилі для зображень товарів у кошику */
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cart-item-image {
+  width: 50px; /* розмір зменшеної картинки */
+  height: 50px;
+  margin-right: 10px;
+}
+
+.cart-item-text {
+  flex: 1;
+}
+
+
+
+
+#totalPrice{background-color: black;
+color: #fff;
+padding: 10px;
+width: 200px;}
+
+
+.delete-item {
+ margin-left: 50px;
+}
+
+
+.quantity-controls{
+display: flex;
+align-items: center;
+justify-content: space-between;}
+
+
+
+/*Загальна кількість товару у кошику:*/
+
+.korz {
+ color: rgb(16, 15, 15);
+}
+/*Опис товару:*/
+
+.cart-item-description p {
+
+  width: 250px;
+  font-weight: 600;
+  
+}
+
+
+
+.stul{
+display: flex;
+align-items: center;
+justify-content: space-between;}
+
+
+.img_footer{margin-top: 100px;}
+
+.add-to-cart{width: 100px;}
+.img_1{margin-left: 20px;}
+.img_2{margin-left: 20px;}
+.img_3{margin-left: 20px;}
