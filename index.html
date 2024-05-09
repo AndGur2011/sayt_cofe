@@ -9,101 +9,112 @@
 <body>
   <header>
     <img src="https://i.postimg.cc/QdBb6tXm/images-removebg-preview-1.png">
-    <center>
+   
     <nav>
         <a href="">Сертифекати на товари</a>
         <a href="">Куда мы доставляем</a>
         <a href="">Наши сотрудники</a>
+        <a href="">Сертифекати на товари</a>
+        <a href="#" id="cartLink">Кошик<small class="korz">0</small></a>
     </nav>
-  </center>
+ 
   </header>
+  <main>
 
   <h1>У нас лучший ассортимент!<br>
     И по адекватным ценам!</h1>
 
-<h2>Кофе </h2>
-<div class="coffee">
- 
-  <div class="latte">
-<img src = "data:image/jpeg;base64,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">  
-<p> Латте </p>
-<p> 30грн </p>
+<h2> Ассортимент кофе </h2>
+<div class="coffe">
 
-</div>
-<div class="americano">
-  <img src = "https://images-ext-1.discordapp.net/external/5e7BuIdrKvhk_AAD6579mauaiAyz_mQKNWvsvswJuZw/https/i.postimg.cc/yYskLRYJ/1695223335-2858-image6-full.jpg?format=webp&width=1053&height=702"/>
-  <p> Американо </p>
-  <p > 50грн  </p>
-  </div>
-  
-  
-  <div class="raf">
-  
-  <img src ="https://i.postimg.cc/bJ0qn6nm/9k.webp"/>
-  <p> Раф </p>
-  <p></p>
-  </div>
-  <div class="fletwhite">
-  
-  <img src = "https://images-ext-1.discordapp.net/external/lsmlFhUJ5brVgoG27q20gJe376b1qaJqRsVZ8z3-DY4/https/i.postimg.cc/s2mrDBCL/flat-white-1.jpg?format=webp&width=1171&height=702"/>
-  <p> Флетуайт </p>
-  </div>
-  </div>
-  
-  <h2> Десерты </h2>
+        <div class="cartItems latte">
+            <img class="latt" src = "https://i.postimg.cc/1XyT2BrC/Partners-Latte-FT-BLOG0523-09569880de524fe487831d95184495cc.jpg">
+            <p class="la">Латте</p>
+            <button class="add-to-cart" data-price="45">45₴</button>
+      </div>
 
-  <div class="dessert">
- 
-    <div class="macarun">
-  <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy_3R-TVJ340qrqKwdVChLKmpIpMoF4Y9-A9QNpg0S3Q&s"/>  
-  <p> Макарун </p>
-  <p> 30грн </p>
-  
-  </div>
-  <div class="chocolate_pudding">
-    <img src = "https://cdn.lifehacker.ru/wp-content/uploads/2020/10/Depositphotos_232259108_xl-2015-1_1603020334-e1678394500456-1280x640.jpg"/>
-    <p> Шоколадний пуддінг </p>
-    <p > 50грн  </p>
-    </div>
-    
-    
-    <div class="cheese_cake">
-    <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ4AMeROXUpX37EgcaLNgUZJuOnSiRwgsRREUaktzubBz8yVAg-l8uM6OqKmMH8mtdcbc&usqp=CAU"/>
-    <p> Чизкейк </p>
-    </div>
+      <div class="cartItems flet">
+          <img class="fle" src = "https://i.postimg.cc/Fzm6Jpfb/flat-white-main.jpg">
+          <p class="fl">Флэт-уайт</p>
+          <button class="add-to-cart" data-price="40">40₴</button>
+     </div>
 
-    <div class="panacota">
-    <img src = "https://i.postimg.cc/wBvH5TZk/image.jpg"/>
-    <p> Панакота (не фуго) </p>
-    </div>
-    </div>
-
-  <h2> Круасаны</h2>
-  <div class="croissants">
-    <div class="lococi">
-        <img class="lococ" src = "https://i.postimg.cc/QtdmVK3t/images.jpg">
-        <p class="loco">круасан с лососем </p>
+          <div class="cartItems americano">
+              <img class="americon" src = "https://i.postimg.cc/7Yjgs6Vd/americano-d59efe4a133248d388f8fc06be6bff11-master.jpg">
+              <p class="americo">Американо</p>
+              <button class="add-to-cart" data-price="30">30₴</button>
         </div>
-        <div class="kyriga">
-            <img class="kyrig" src = "https://i.postimg.cc/CxCsNsM5/kruassan-s-kopchenoj-kuriczej.jpg">
-            <p class="kyri">круасан с курицой</p>
+
+              <div class="cartItems raf">
+                  <img class="ra" src = "https://i.postimg.cc/0NVj4Xvj/274px-Rafcoffe.jpg">
+                  <p class="r">Раф</p>
+                  <button class="add-to-cart" data-price="55">55₴</button>
+                  </div>
+              </div>
+
+     <h2>Десерты</h2>
+        <div class="deserty">
+        <div class="cartItems brayni">
+            <img class="brayn" src = "https://i.postimg.cc/CL6CRGBD/3c7531.jpg">
+            <p class="bray">Брауни</p>
+               <button class="add-to-cart" data-price="50">50₴</button> 
             </div>
-            <div class="vegan">
-                <img class="vega" src = "https://i.postimg.cc/mhf73t07/02b9b1269f3dacdbcd0612d0e462e98e.jpg">
-                <p class="veg">веганский круасан</p>
+
+            <div class="cartItems makorony">
+                <img class="makoron" src = "https://i.postimg.cc/ZK0pzW7q/1591119891-1.jpg">
+                <p class="makoro">Макорунцы </p>
+                    <button class="add-to-cart" data-price="45">45₴</button>
                 </div>
-                <div class="calami">
+
+                <div class="cartItems zefir">
+                    <img class="zefi" src = "https://i.postimg.cc/CM7X6QXg/desert-anny-pavlovoi-klassicheskii-1616755851-prev-hor.jpg">
+                    <p class="zef">Зефир  </p>
+                    <button class="add-to-cart" data-price="45">45₴</button>
+                    </div>
+                    
+                    <div class="cartItems eklery">
+                        <img class="ekler" src = "https://i.postimg.cc/900pkJwm/desert-eklery-s-zavarnym-kremom.jpg">
+                        <p class="ekle">Эклеры </p>
+                            <button class="add-to-cart" data-price="60">60₴</button>
+                        </div>
+                    </div>
+
+
+
+  
+  <h2> Круасаны          </h2>
+    <div class="croissants">
+    <div class="cartItems lococi">
+        <img class="lococ" src = "https://i.postimg.cc/QtdmVK3t/images.jpg">
+        <p class="loco">Круасан c лососем </p>
+           <button class="add-to-cart" data-price="100">100₴</button>
+        </div>
+
+<div class="cartItems kyriga">
+            <img class="kyrig" src = "https://i.postimg.cc/CxCsNsM5/kruassan-s-kopchenoj-kuriczej.jpg">
+            <p class="kyri">Круасан  курицой </p>
+                <button class="add-to-cart" data-price="100">100₴</button>
+            </div>
+            <div class="cartItems vegan">
+                <img class="vega" src = "https://i.postimg.cc/mhf73t07/02b9b1269f3dacdbcd0612d0e462e98e.jpg">
+                <p class="veg">Веганский круасан </p>
+                    <button class="add-to-cart" data-price="100">100₴</button>
+                </div>
+                <div class="cartItems calami">
                     <img class="calam" src = "https://i.postimg.cc/8kqYXwGm/croissant-with-meat-1472-2760.jpg">
-                    <p class="cala">круасан с салями</p>
+                    <p class="cala">Круасан c cалями </p>
+                        <button class="add-to-cart" data-price="100">100₴</button>
                     </div>
                 </div>
 
-                <div class="photos">
-
-  </div><img class="photo1" src="https://cdn.discordapp.com/attachments/1228728547447799943/1233743349668778025/photo3.jpg?ex=662e3488&is=662ce308&hm=4ae96570373a02af16ce37876b83132927d57c8156e4312aa528fb1200e7190d&"/>
-  <img class="photo2" src="https://cdn.discordapp.com/attachments/1228728547447799943/1233743349396275260/photo2.jpg?ex=662e3488&is=662ce308&hm=1fbd80e1baaafee72131b7945227f14c4f30f526b1e41e9aed0d561b152beb03&"/>
-</div>
+<div class="two">
+<div class="img_footer">
+  <img src = "https://i.postimg.cc/SQr2Mk5j/photo1-1.png"/>
   
+</div>
+
+
+</div>
   <style>
     .scrollable-list {
         max-height: 200px; /* Установите максимальную высоту контейнера списка */
@@ -129,6 +140,22 @@
         <!-- Добавьте нужное количество пунктов, чтобы список был прокручиваемым -->
     </ul>
   </div>
+  <a href="#"><img class="img_1" src="https://i.postimg.cc/1zRgvs2Y/free-icon-font-tik-tok-6422207.png"></a>
+  <a href=""><img class="img_2" src="https://i.postimg.cc/kGSD24RD/free-icon-font-paper-plane-3917567.png"></a>
+  <a href=""><img class="img_3" src="https://i.postimg.cc/fT4J6x1d/free-icon-font-whatsapp-6422213.png"></a>
   </footer>
+
+  <div id="cartModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Кошик</h2>
+      <div id="cartItems"></div>
+      <div class="stul">
+        <p id="totalPrice">Всього в кошику: 0</p>
+        <button id="checkoutBtn">Оформити покупку</button>
+    </div>
+    </div>
+  </div> 
+<script src="scrip.js"></script>
   </body>
   </html>
